@@ -15,10 +15,10 @@ Resources:
               OutputArtifacts:
                 - Name: SourceOutput
               Configuration:
-                Owner: <your_github_username>
-                Repo: <your_repo_name>
-                Branch: master
-                OAuthToken: <your_github_oauth_token>
+                Owner: amit8824
+                Repo: ubique-project
+                Branch: main
+                OAuthToken: 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
               RunOrder: 1
         - Name: Build
           Actions:
