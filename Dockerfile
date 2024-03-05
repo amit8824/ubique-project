@@ -1,11 +1,7 @@
-# Dockerfile
-FROM python:3.9
+FROM alpine:latest
 
 WORKDIR /app
 
-# COPY requirements.txt /app/
-# RUN pip install --no-cache-dir -r requirements.txt
+COPY app.sh .
 
-COPY . /app/
-
-CMD ["python", "app.py"]
+CMD ["sh", "app.sh"]
